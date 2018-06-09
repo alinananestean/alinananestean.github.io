@@ -1,0 +1,46 @@
+nav {
+  ul {
+    text-align: center;
+  }
+
+  li {
+
+    list-style: none;
+    font-size: 1.1em;
+    font-weight: lighter;
+    padding-bottom: 1em;
+
+    @media (min-width: 640px) {
+      display: inline-block;
+      margin-right: 1.5em;
+
+      a {
+        padding: 24px 15px;
+      }
+    }
+  }
+
+  a {
+    &:link,
+    &:visited {
+      color: #1e1e1e;
+    }
+
+    @media (min-width: 640px) {
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+
+  @media (min-width: 1024px) {
+    display: inline-block;
+    float: right;
+    padding-top: 50px;
+
+    ul {
+      margin: 0;
+    }
+  }
+}

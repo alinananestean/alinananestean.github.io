@@ -1,0 +1,63 @@
+//............PORTFOLIO
+#portfolio {
+  h3 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 2em;
+  }
+
+  p {
+    font-size: 15px;
+    padding-top: 10px;
+  }
+}
+
+.projects {
+  max-width: 100%;
+  margin: 0 auto 4em;
+
+  a:link,
+  a:visited {
+    color: #222;
+  }
+  img {
+    opacity: .8;
+  }
+  img:hover {
+    opacity: 1;
+  }
+
+  h5 {
+    font-size: .9em;
+    @media (min-width: 1024px) {
+      font-size: 1.25em;
+    }
+  }
+}
+
+.projects-container .column:last-child {
+  float: left;
+}
+
+//.......BUTTONS
+
+.portfolio-btn {
+  text-align: center;
+
+  a{
+    &:link,
+    &:visited {
+      color: #fff;
+      background-color: #2e2e2e;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &:first-child {
+      margin-right: 20px;
+    }
+      }
+
+
+}
