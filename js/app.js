@@ -8,8 +8,7 @@ $( document ).ready(function() {
             $("header").addClass("smaller");
             $('body').addClass("scroll-padding");
 
-        }
-        else {
+        } else {
             $("header").removeClass("smaller");
             $('body').removeClass("scroll-padding");
         }
